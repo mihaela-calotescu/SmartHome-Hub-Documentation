@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="advanced">
+  <title>Advanced Features</title>
+  <shortdesc>In-depth look at custom scripting, API integration, and developer tools for the SmartHome Hub.</shortdesc>
+  <body>
+    <p>The Advanced Features section is tailored for power users and developers who want to customize and extend the capabilities of the SmartHome Hub.</p>
+    <p><b>Custom Scripting and Automation:</b></p>
+    <p>Users can create custom automation routines using a built-in scripting engine. For example, you can write scripts to adjust device settings based on environmental sensors or integrate with external web services. Below is a sample script snippet:</p>
+    <pre>
+# Sample Python-like pseudo code for automation
+if sensor.temperature > 75:
+    turn_on("air_conditioner")
+else:
+    turn_off("air_conditioner")
+    </pre>
+    <p><b>Integration with External APIs:</b></p>
+    <p>The Hub offers API endpoints that allow developers to integrate with third-party services. You can send and retrieve data in JSON format, enabling seamless interaction with home security systems, weather services, and more. Refer to the <i>Developer Guide</i> for API documentation and sample requests.</p>
+    <p><b>Advanced Security Configurations:</b></p>
+    <p>For enhanced protection, you can configure advanced security settings, including custom firewall rules and two-factor authentication. Security logs and alerts can be reviewed through the app’s dashboard.</p>
+    <p><b>Performance Optimization:</b></p>
+    <p>Optimize system performance by monitoring resource usage and configuring load balancing for multiple connected devices. Advanced users can tweak system parameters to better suit their network conditions and usage patterns.</p>
+    <p>This section provides the technical depth and flexibility required to fully exploit the SmartHome Hub's capabilities and integrate it with broader home automation ecosystems.</p>
+  </body>
+</topic>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="configuration">
+  <title>Configuration</title>
+  <shortdesc>Instructions to configure, customize, and optimize the SmartHome Hub.</shortdesc>
+  <body>
+    <p>Once the SmartHome Hub is installed, you can customize its configuration to suit your lifestyle and home environment. Configuration is managed via the SmartHome mobile app, and the settings are divided into several key areas:</p>
+    <p><b>Device Pairing and Management:</b></p>
+    <ul>
+      <li><b>Adding Devices:</b> Use the app to scan QR codes or select devices from a list of supported brands.</li>
+      <li><b>Organizing Devices:</b> Group devices by room or function for easier control and automation.</li>
+      <li><b>Firmware Updates:</b> Regularly check and install updates to keep your devices secure and efficient.</li>
+    </ul>
+    <p><b>Automation and Scheduling:</b></p>
+    <ul>
+      <li>Create automation routines that trigger actions based on time, sensor data, or user commands.</li>
+      <li>Set up schedules for devices to conserve energy, such as turning off lights when not in use.</li>
+      <li>Configure conditional triggers using rules, e.g., "If motion detected, then turn on hallway light."</li>
+    </ul>
+    <p><b>Security Settings:</b></p>
+    <ul>
+      <li>Enable two-factor authentication for your account.</li>
+      <li>Configure network encryption and firewall settings directly from the app.</li>
+      <li>Monitor access logs and set up alerts for unusual activities.</li>
+    </ul>
+    <p><b>Integration and API Access:</b></p>
+    <p>Developers can take advantage of the Hub’s open API to integrate with third-party applications or build custom solutions. Refer to the Advanced Features section for more details.</p>
+    <p>These configurations ensure that the SmartHome Hub operates securely, efficiently, and in tune with your personal preferences.</p>
+  </body>
+</topic>

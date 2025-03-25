@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="installation">
+  <title>Installation Guide</title>
+  <shortdesc>Detailed instructions for installing the SmartHome Hub.</shortdesc>
+  <body>
+    <p>The installation process for the SmartHome Hub is designed to be straightforward and user-friendly. Before you begin, ensure you have the following items:</p>
+    <ul>
+      <li>SmartHome Hub device and power adapter</li>
+      <li>Ethernet cable (if opting for a wired connection)</li>
+      <li>Access to your home Wi-Fi network</li>
+      <li>Smartphone or tablet for initial setup</li>
+      <li>User manual and warranty information</li>
+    </ul>
+    <p><b>Step-by-Step Installation:</b></p>
+    <ol>
+      <li><b>Unpack:</b> Remove the device and accessories from the packaging. Inspect the device for any physical damage.</li>
+      <li><b>Connect Power:</b> Plug the power adapter into the Hub and then into a wall outlet. Ensure the LED indicator turns on.</li>
+      <li><b>Network Setup:</b> For a wired connection, connect the Ethernet cable from the Hub to your router. For wireless, proceed to the next step.</li>
+      <li><b>Download App:</b> Install the SmartHome mobile app from the App Store or Google Play.</li>
+      <li><b>Initial Configuration:</b> Open the app, create or sign into your account, and follow the on-screen prompts. The app will guide you through pairing the Hub with your network.</li>
+      <li><b>Final Checks:</b> Once setup is complete, verify that all connected devices are recognized and properly configured.</li>
+    </ol>
+    <p><b>Tips:</b> If you experience connectivity issues, try repositioning the Hub to ensure it is within range of your router. Consult the troubleshooting section for additional guidance.</p>
+  </body>
+</topic>

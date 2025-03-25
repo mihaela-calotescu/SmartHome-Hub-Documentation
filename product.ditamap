@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map title="SmartHome Hub Documentation">
+  <topicref href="introduction.dita" navtitle="Introduction"/>
+  <topicref href="installation.dita" navtitle="Installation Guide"/>
+  <topicref href="configuration.dita" navtitle="Configuration"/>
+  <topicref href="troubleshooting.dita" navtitle="Troubleshooting"/>
+  <topicref href="faq.dita" navtitle="FAQ"/>
+  <topicref href="advanced.dita" navtitle="Advanced Features"/>
+</map>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="faq">
+  <title>FAQ</title>
+  <shortdesc>Answers to frequently asked questions about the SmartHome Hub.</shortdesc>
+  <body>
+    <p><b>Q:</b> How many devices can I connect to the SmartHome Hub?<br/>
+    <b>A:</b> You can connect up to 50 devices depending on network conditions and usage patterns.</p>
+    <p><b>Q:</b> Is remote access available?<br/>
+    <b>A:</b> Yes, you can manage your smart home remotely via the SmartHome app with a stable internet connection.</p>
+    <p><b>Q:</b> Does the Hub support third-party devices?<br/>
+    <b>A:</b> Absolutely! The Hub is compatible with many popular brands including Philips Hue, Nest, Ring, and more.</p>
+    <p><b>Q:</b> How frequently are firmware updates released?<br/>
+    <b>A:</b> Firmware updates are typically released on a monthly basis to ensure security and performance improvements.</p>
+    <p><b>Q:</b> Is there a subscription fee?<br/>
+    <b>A:</b> No, the basic features are subscription-free. Optional premium services are available.</p>
+    <p><b>Q:</b> What should I do if I encounter an issue that is not listed here?<br/>
+    <b>A:</b> Consult the troubleshooting guide or contact our support team for further assistance.</p>
+  </body>
+</topic>
