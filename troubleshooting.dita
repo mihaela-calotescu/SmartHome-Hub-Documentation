@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
-<troubleshooting id="hub-troubleshooting" class="- topic/troubleshooting ">
-  <title class="- topic/title ">Smart Home Hub Troubleshooting</title>
-  <troublebody class="- troubleshooting/troublebody ">
-    <troubleSolution class="- troubleshooting/troubleSolution ">
-      <title class="- topic/title ">The smart home hub is not detecting connected devices.</title>
-      <cause class="- troubleshooting/cause ">
-        <p class="- topic/p ">The hub is out of range, the device is not compatible, or the hub firmware is outdated.</p>
+<troubleshooting id="hub-troubleshooting">
+  <title>Smart Home Hub Troubleshooting</title>
+  <troublebody>
+    <trouble>
+      <cause>
+        <p>The smart home hub is not detecting connected devices. This can occur if the hub is out of range, the device is not compatible, or the hub firmware is outdated.</p>
       </cause>
-      <remedy class="- troubleshooting/remedy ">
-        <steps class="- topic/steps ">
-          <step class="- topic/step "><cmd class="- topic/cmd ">Move the smart device closer to the hub and try again.</cmd></step>
-          <step class="- topic/step "><cmd class="- topic/cmd ">Check that the device supports the same protocol (e.g., Zigbee or Z-Wave).</cmd></step>
-          <step class="- topic/step "><cmd class="- topic/cmd ">Update the hub’s firmware from the settings menu.</cmd></step>
+      <remedy>
+        <steps>
+          <step><cmd>Move the smart device closer to the hub and try again.</cmd></step>
+          <step><cmd>Check that the device supports the same protocol (e.g., Zigbee or Z-Wave).</cmd></step>
+          <step><cmd>Update the hub’s firmware from the settings menu.</cmd></step>
         </steps>
       </remedy>
-    </troubleSolution>
-    <troubleSolution class="- troubleshooting/troubleSolution ">
-      <title class="- topic/title ">The hub is not connecting to the Wi-Fi network.</title>
-      <cause class="- troubleshooting/cause ">
-        <p class="- topic/p ">The Wi-Fi password has changed, the signal is weak, or the hub only supports 2.4 GHz networks.</p>
+    </trouble>
+    <trouble>
+      <cause>
+        <p>The hub is not connecting to the Wi-Fi network. This might happen if the Wi-Fi password has changed, the signal is weak, or the hub only supports 2.4 GHz networks.</p>
       </cause>
-      <remedy class="- troubleshooting/remedy ">
-        <steps class="- topic/steps ">
-          <step class="- topic/step "><cmd class="- topic/cmd ">Make sure you’re using the correct Wi-Fi password.</cmd></step>
-          <step class="- topic/step "><cmd class="- topic/cmd ">Place the hub closer to the router.</cmd></step>
-          <step class="- topic/step "><cmd class="- topic/cmd ">Check if your network is 2.4 GHz, not 5 GHz.</cmd></step>
+      <remedy>
+        <steps>
+          <step><cmd>Make sure you’re using the correct Wi-Fi password.</cmd></step>
+          <step><cmd>Place the hub closer to the router.</cmd></step>
+          <step><cmd>Check if your network is 2.4 GHz, not 5 GHz.</cmd></step>
         </steps>
       </remedy>
-    </troubleSolution>
+    </trouble>
   </troublebody>
 </troubleshooting>
