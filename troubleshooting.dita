@@ -4,7 +4,6 @@
   <title>Smart Home Hub Troubleshooting</title>
   <troublebody>
     <troubleSolution>
-      <title>Hub is not detecting connected devices</title>
       <troubleSymptom>
         <p>The smart home hub is not detecting connected devices.</p>
       </troubleSymptom>
@@ -20,14 +19,13 @@
       </remedy>
     </troubleSolution>
     <troubleSolution>
-      <title>Hub is not connecting to the Wi-Fi network</title>
       <troubleSymptom>
         <p>The hub is not connecting to the Wi-Fi network.</p>
       </troubleSymptom>
       <cause>
         <p>The Wi-Fi password has changed, the signal is weak, or the hub only supports 2.4 GHz networks.</p>
       </cause>
-       <remedy>
+      <remedy>
         <steps>
           <step><cmd>Make sure you’re using the correct Wi-Fi password.</cmd></step>
           <step><cmd>Place the hub closer to the router.</cmd></step>
