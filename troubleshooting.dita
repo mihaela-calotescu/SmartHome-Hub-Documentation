@@ -3,10 +3,10 @@
 <troubleshooting id="hub-troubleshooting">
   <title>Smart Home Hub Troubleshooting</title>
   <troublebody>
-    <troubleSolution>
-      <troubleSymptom>
+    <troublesolution>
+      <troublesymptom>
         <p>The smart home hub is not detecting connected devices.</p>
-      </troubleSymptom>
+      </troublesymptom>
       <cause>
         <p>The hub is out of range, the device is not compatible, or the hub firmware is outdated.</p>
       </cause>
@@ -17,11 +17,11 @@
           <step><cmd>Update the hub’s firmware from the settings menu.</cmd></step>
         </steps>
       </remedy>
-    </troubleSolution>
-    <troubleSolution>
-      <troubleSymptom>
+    </troublesolution>
+    <troublesolution>
+      <troublesymptom>
         <p>The hub is not connecting to the Wi-Fi network.</p>
-      </troubleSymptom>
+      </troublesymptom>
       <cause>
         <p>The Wi-Fi password has changed, the signal is weak, or the hub only supports 2.4 GHz networks.</p>
       </cause>
@@ -32,6 +32,6 @@
           <step><cmd>Check if your network is 2.4 GHz, not 5 GHz.</cmd></step>
         </steps>
       </remedy>
-    </troubleSolution>
+    </troublesolution>
   </troublebody>
 </troubleshooting>
