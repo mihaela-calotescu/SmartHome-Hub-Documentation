@@ -2,10 +2,12 @@
 <!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
 <troubleshooting id="hub-troubleshooting">
   <title>Smart Home Hub Troubleshooting</title>
+  <shortdesc>Find solutions to common issues with your Smart Home Hub, including device detection and Wi-Fi connectivity problems.</shortdesc>
   <troublebody>
-    <solution>
+    <troubleSolution>
+      <troubleSymptom>The smart home hub is not detecting connected devices.</troubleSymptom>
       <cause>
-        <p>The smart home hub is not detecting connected devices. This can occur if the hub is out of range, the device is not compatible, or the hub firmware is outdated.</p>
+        <p>This can occur if the hub is out of range, the device is not compatible, or the hub firmware is outdated.</p>
       </cause>
       <remedy>
         <steps>
@@ -14,10 +16,11 @@
           <step><cmd>Update the hub’s firmware from the settings menu.</cmd></step>
         </steps>
       </remedy>
-    </solution>
-    <solution>
+    </troubleSolution>
+    <troubleSolution>
+      <troubleSymptom>The hub is not connecting to the Wi-Fi network.</troubleSymptom>
       <cause>
-        <p>The hub is not connecting to the Wi-Fi network. This might happen if the Wi-Fi password has changed, the signal is weak, or the hub only supports 2.4 GHz networks.</p>
+        <p>This might happen if the Wi-Fi password has changed, the signal is weak, or the hub only supports 2.4 GHz networks.</p>
       </cause>
       <remedy>
         <steps>
@@ -26,6 +29,6 @@
           <step><cmd>Check if your network is 2.4 GHz, not 5 GHz.</cmd></step>
         </steps>
       </remedy>
-    </solution>
+    </troubleSolution>
   </troublebody>
 </troubleshooting>
