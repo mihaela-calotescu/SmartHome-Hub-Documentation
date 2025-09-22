@@ -1,50 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="troubleshooting">
-  <title>Troubleshooting</title>
-  <shortdesc>Comprehensive solutions for common issues with the SmartHome Hub.</shortdesc>
-  <body>
-    <p>If you encounter issues with your SmartHome Hub, this section provides a detailed table of common problems and their recommended solutions. Follow the steps below based on the specific issue you face.</p>
-    <table>
-      <tgroup cols="2">
-        <thead>
-          <row>
-            <entry><b>Issue</b></entry>
-            <entry><b>Solution</b></entry>
-          </row>
-        </thead>
-        <tbody>
-          <row>
-            <entry>Hub not powering on</entry>
-            <entry>Verify the power outlet, check the adapter, and ensure the connection is secure.</entry>
-          </row>
-          <row>
-            <entry>LED indicator not lighting</entry>
-            <entry>Reset the device by unplugging it for 30 seconds, then reconnect power.</entry>
-          </row>
-          <row>
-            <entry>Cannot connect to Wi-Fi</entry>
-            <entry>Restart your router, verify network credentials, and try moving the Hub closer to the router.</entry>
-          </row>
-          <row>
-            <entry>Devices not responding</entry>
-            <entry>Re-pair the devices via the app; ensure each device is powered on and within range.</entry>
-          </row>
-          <row>
-            <entry>App crashes during setup</entry>
-            <entry>Update the app to the latest version or reinstall it from the store.</entry>
-          </row>
-          <row>
-            <entry>Firmware update failure</entry>
-            <entry>Ensure a stable internet connection and sufficient power supply during updates.</entry>
-          </row>
-          <row>
-            <entry>Slow response  times</entry>
-            <entry>Check for network congestion, update firmware, and restart the Hub.</entry>
-          </row>
-        </tbody>
-      </tgroup>
-    </table>
-    <p>If none of these solutions work, please contact SmartHome Support with the error details and troubleshooting steps you have already taken.</p>
-  </body>
-</topic>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="hub-troubleshooting">
+  <title>Smart Home Hub Troubleshooting</title>
+  <troublebody>
+    <troubleSolution>
+      <title>Hub is not detecting connected devices</title>
+      <troubleSymptom>
+        <p>The smart home hub is not detecting connected devices.</p>
+      </troubleSymptom>
+      <cause>
+        <p>The hub is out of range, the device is not compatible, or the hub firmware is outdated.</p>
+      </cause>
+      <remedy>
+        <steps>
+          <step><cmd>Move the smart device closer to the hub and try again.</cmd></step>
+          <step><cmd>Check that the device supports the same protocol (e.g., Zigbee or Z-Wave).</cmd></step>
+          <step><cmd>Update the hub’s firmware from the settings menu.</cmd></step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <title>Hub is not connecting to the Wi-Fi network</title>
+      <troubleSymptom>
+        <p>The hub is not connecting to the Wi-Fi network.</p>
+      </troubleSymptom>
+      <cause>
+        <p>The Wi-Fi password has changed, the signal is weak, or the hub only supports 2.4 GHz networks.</p>
+      </cause>
+       <remedy>
+        <steps>
+          <step><cmd>Make sure you’re using the correct Wi-Fi password.</cmd></step>
+          <step><cmd>Place the hub closer to the router.</cmd></step>
+          <step><cmd>Check if your network is 2.4 GHz, not 5 GHz.</cmd></step>
+        </steps>
+      </remedy>
+    </troubleSolution>
+  </troublebody>
+</troubleshooting>
